@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Layout from "../components/Layout";
+import Layout from "./Layout";
 
-import { posts } from "../profile";
+import { posts } from "./profile";
 
 const PostCard = ({ post }) => (
   <div className="col-md-4">

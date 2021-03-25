@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../components/Layout";
+import Layout from "./Layout";
 
 const custom404 = () => (
   <Layout title="Pagina no encontrada">

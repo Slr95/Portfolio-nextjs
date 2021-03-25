@@ -1,6 +1,6 @@
-import Layout from '../components/layout'
+import Layout from './Layout'
 import Link from 'next/link'
-import {skills, estudios, projects} from '../profile';
+import {skills, estudios, projects} from './profile';
 
 const Index = () => (
     <Layout>
